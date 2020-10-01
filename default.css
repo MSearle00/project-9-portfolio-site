@@ -35,7 +35,7 @@ h6 { font-size: 16px;}
 }
 
 #about{
-	background: linear-gradient(90deg, white 30%, rgb(250, 208, 255) 70%);
+	background: linear-gradient(90deg, white 40%, rgb(250, 208, 255) 60%);
 	border-bottom:1px solid rgb(189, 189, 189);
 	overflow:auto;
 }
@@ -117,6 +117,7 @@ h6 { font-size: 16px;}
 	border-radius: 50em;
 	left: 100px;
 	top: 50px;
+	z-index:2;
 }
 
 #profile-shadow{
@@ -130,6 +131,7 @@ h6 { font-size: 16px;}
 	top: 50px;
 	margin-left: 50px;
 	margin-top: 10px;
+	z-index:2;
 	
 	
 }
@@ -142,13 +144,16 @@ h6 { font-size: 16px;}
 		text-align: right;
 		font-size: large;
 		position: relative;
-		left: 5em;
+		left: 4em;
 		right: 5em;
 		bottom: 5em;
 		width: calc(100% - 15em);
+		padding-top: 10px;
+		padding-right: 10px;
 		background-color: rgba(56, 136, 163, 0.8);
 		color:white;
 		height: 2em;
+		z-index: 1;
     }
 
 
@@ -293,6 +298,7 @@ h6 { font-size: 16px;}
 	.infobar{
 		width: 100%;
 		height:auto;
+		padding: 0;
 	}
 
 }
