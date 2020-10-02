@@ -291,7 +291,7 @@ h6 { font-size: 16px;}
 		width:250px;
 		margin-left: 25px;
 	}
-	#profile_pic{
+	#profile-pic{
 		height:250px;
 		width:250px;
 	}
@@ -305,14 +305,15 @@ h6 { font-size: 16px;}
 
 @media screen and (max-width: 400px){
 	#profile-shadow{
-		max-width: 280px;
-		height: 180px;
+		width: 200px;
+		height: 200px;
 		padding-left: 10px;
 		padding-top: 10px;
 	}
 
-	#profile{
-		width: 280px;
+	#profile-pic{
+		width: 200px;
+		height: 200px;
 
 	}
 }
