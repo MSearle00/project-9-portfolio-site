@@ -2,6 +2,11 @@ html, body{
 	padding: 0;
 	margin: 0;
 	scroll-behavior: smooth;
+	font-family: 'Poppins', sans-serif;
+}
+
+.intro{
+	font-family: 'Sansita Swashed', cursive;
 }
 
 body *{
@@ -69,6 +74,7 @@ h6 { font-size: 16px;}
 }
 .socialsList{
 	margin: 0 .5em;
+	font-family: 'Inconsolata', monospace;
 }
 .socialsLink{
 	padding: .5em;
@@ -81,24 +87,25 @@ h6 { font-size: 16px;}
 	margin: 0 auto;
 }
 
-.nav{
-	height:auto;
-	width: 100%;
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 	z-index: 1;
-	top: 0;
 }
 
 .nav-list{
-		padding: 6px 8px 6px 16px;
+		display: flex;
+		justify-content: space-around;
+		width: 40%;
 		text-decoration: none;
-		font-size: 25px;
-		display: flex; 
+	
 }
 .nav-list a{
-		display: block;
-		padding: 11px;
 		text-decoration: none;
-		color:white;
+		color:rgb(94, 94, 94);
+		font-weight: bold;
+		letter-spacing: 2px;
 }
 
 .intro-wrapper{
@@ -163,9 +170,10 @@ h6 { font-size: 16px;}
 		padding-top: 10px;
 		padding-right: 10px;
 		background-color: rgba(56, 136, 163, 0.8);
-		color:white;
+		color:rgb(241, 241, 241);
 		height: 2em;
 		z-index: 1;
+		font-family: 'Inconsolata', monospace;
     }
 
 
@@ -240,6 +248,7 @@ h6 { font-size: 16px;}
 .project-title{
 	color:black;
 	margin: 0;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .project-intro{
@@ -283,7 +292,7 @@ h6 { font-size: 16px;}
 
 @media screen and (min-width: 1060px){
 	.subtitle{
-		width: 15%;
+		width: 20%;
 	}
 	
 	.project {
